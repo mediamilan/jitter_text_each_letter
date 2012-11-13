@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -------------- END CSS RESET -------------- */
+
+/* -- START OOCSS -- */
+
+header, footer, article, section, nav, menu, hgroup {  
+	display: block;  
+}
+
+.left {
+	float:left;	
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear:both
+}
+
+a {
+	color: #606060;
+	text-decoration:none;
+}
+
+a {
+	transition: all 0.6s ;
+	-moz-transition: all 0.6s ;
+	-webkit-transition: all 0.6s ;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+a.mm {
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	background:url(http://mediamilan.com/wp-content/themes/mm_v2/images/newsletter/mm_wBG.png) left top no-repeat;
+	width:30px;
+	height:30px;
+	display:block;
+}
+
+/* -- END OOCSS -- */
+
+body {
+	background: #dddddd url(../images/shine-bg.png) 50% 0 no-repeat;
+	color:#606060;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'fabricsregular';
+    src: url('fabricslight-webfont.eot');
+    src: url('fabricslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fabricslight-webfont.woff') format('woff'),
+         url('fabricslight-webfont.ttf') format('truetype'),
+         url('fabricslight-webfont.svg#fabricsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#page_container {
+	width: 50%;
+	margin: 5em auto;
+}
+
+#page_container p{
+	font-family: 'fabricsregular', Arial;
+	font-size: 2em;
+}
+
+p {
+	text-align: center;
+	position: relative;
+}
+
+#page_container p.split {
+	margin: 1em 0 0 0;
+	font-size: 5em;
+	position: relative;
+	
+}
+
+p.split span {
+	position: relative;
+	display: inline-block;
+}
+
+
+footer {
+	position: fixed;
+	bottom: 1em;
+	left: 3%;
+}
+
+footer p{
+	font-size: .75em;
+	text-align: center;
+}
+
+/* -- START MAIN CSS -- */

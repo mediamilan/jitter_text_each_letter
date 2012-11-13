@@ -9,4 +9,4 @@ Script: Javascript, jQuery
 3. Or makes each individual letters of the word jitter.
 
 **** DEMO ****
-Do click on 'split_jitter.html' to see the demo.
+http://mediamilan.com/examples/jitter_text_each_letter/
